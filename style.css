@@ -1,0 +1,221 @@
+
+.purple{
+    background-color: purple;
+}
+.yellow{
+    background-color: yellow;
+}
+body{
+    font-family:ProximaNova,Arial,Helvetica Neue,sans-serif;
+}
+/* -------------------------------------------- Section__1 -------------------------------------------*/
+/* .section__1{
+    position: absolute;
+} */
+/* ----- NAVBAR-BRAND ----- */
+.navbar-brand h2{
+    color: #ff4500;
+    font-weight: bold;
+}
+/* ----- NAVBAR-BUTTON ----- */
+.login{
+    font-size: 18px;
+    font-weight: bold;
+}
+.login:hover{
+    color: #ff4500;
+}
+.signup{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.signup:hover{
+    color: white;
+}
+/* ----- DISCRIPTION ----- */
+.discription_anime{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.discription_para{
+    font-size: 25px;
+}
+/* .location_block{
+    width: 600px;
+    height: 60px;
+    font-weight: bold;
+}
+.location_block input{
+    width: 200px;
+} */
+.location_bar{
+    width: 600px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.location_bar input{
+    border: 1px solid white;
+}
+.location_bar:hover{
+    border: 1px solid #ff4500;
+}
+.find_food{
+    background-color: #ff4500; 
+}
+.find_food a:hover{
+    text-decoration: none;
+}
+.locate_btn:hover{
+    background-color:lightgrey;
+}
+.city_list{
+    list-style: none;
+    margin-left: -40px;
+    width: 700px;
+}
+.city_list li{
+    display:inline-block;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 18px;
+}
+/* ----- TITLE IMAGE ----- */
+.title_img{
+    padding: 0px;
+    position: relative;
+    top: -80px;
+}
+/* -------------------------------------------- Section__2 -------------------------------------------*/
+.section__2{
+    background: #2b1e16;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(43, 30, 22);
+    height: 460px;
+    width: 100%;
+    padding: 0px 20px 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-around;
+    text-align: center;
+    position: relative;
+    top : -80px;
+}
+/* ----- CARDS ----- */
+.card{
+    width: 350px;
+    background: #2b1e16;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(43, 30, 22);
+}
+.card img{
+    width: 130px;
+    height: 250px;
+    margin-left: 120px;
+}
+.card-body{
+    color: white;
+    font-size: 16px;
+}
+.card-text{
+    color: #e0cbc1;
+}
+/* -------------------------------------------- Section__3 -------------------------------------------*/
+
+.showcase{
+    margin-left: 100px;
+}
+.section__3{
+    background-color: white;
+    margin-top: 0px;
+    position: relative;
+    top: -160px;
+}
+.section__3 .img_2{
+    margin-top: 100px;
+}
+.section__3_title{
+    margin-top: 150px;
+    font-size: 20px;
+}
+.section__3_discription{
+    font-size: 20px;
+}
+.section__3_btn{
+    margin-top: 70px;
+}
+.section__3_btn img{
+      width: 200px;
+      margin-right: 20px;
+}
+.section__3_btn button{
+    background-color: black;
+    
+}
+/* -------------------------------------------- Section__4 -------------------------------------------*/
+.section__4{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: -160px;
+}
+.section__4 .row{
+    padding: 70px;
+}
+.section__4 .col-3{
+    display: block;
+    align-items: center;
+}
+.section__4 h6{
+    margin-left: 40px;
+    font-size: 18px;
+}
+.section__4_list{
+    list-style: none;
+    line-height: 2;
+    font-size: 18px;
+}
+.section__4_list a:hover{
+    text-decoration: none;
+}
+.section__4_btn img{
+    width: 225px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.footer{
+    width: 87%;
+    margin-left: 7.5%;
+    border-top: 2px solid gray;
+    align-items: center;
+    padding: 30px;
+}
+.footer img{
+    width: 160px;
+}
+.copyright{
+    font-size: 20px;
+    text-align: center;
+}
+.contact_Id img{
+    width: 26px;
+    margin-right: 20px;
+
+}
